@@ -21,3 +21,7 @@ The spike is representing the consumer ack count within that period. Consumer ac
 ## Total number of queue
 The total number of queue is such because everytime a message is sent, it is delayed by 10 milliseconds. I ran the `publisher` for about three times, sending a total of 15 messages, hence 15 messages are queued.
 ![Alt text](image-3.png)
+
+## Why is the queue shorter
+Because the `subscriber` program, which receives message from the `publisher` program are running thrice, and all of the `subscribers` are handling the `publisher` (I ran it thrice well) so there is no queue.
+![Alt text](image-5.png)
