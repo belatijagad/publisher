@@ -8,3 +8,7 @@ It is the same as in **subscriber** because it is sending to the same host with 
 # Screenshots
 RabbitMQ
 ![Alt text](image.png)
+
+## What happened?
+When subscriber and publisher is run, subscriber will receive five messages from publisher.
+![Alt text](image-1.png)
