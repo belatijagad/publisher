@@ -17,3 +17,7 @@ When subscriber and publisher is run, subscriber will receive five messages from
 The spike is representing the consumer ack count within that period. Consumer ack refers to the acknowledgement sent by consumer to the RabbitMQ broker to confirm that a message has been successfully received and processed.
 
 ![Alt text](image-2.png)
+
+## Total number of queue
+The total number of queue is such because everytime a message is sent, it is delayed by 10 milliseconds. I ran the `publisher` for about three times, sending a total of 15 messages, hence 15 messages are queued.
+![Alt text](image-3.png)
