@@ -12,3 +12,8 @@ RabbitMQ
 ## What happened?
 When subscriber and publisher is run, subscriber will receive five messages from publisher.
 ![Alt text](image-1.png)
+
+## Spike and Publisher
+The spike is representing the consumer ack count within that period. Consumer ack refers to the acknowledgement sent by consumer to the RabbitMQ broker to confirm that a message has been successfully received and processed.
+
+![Alt text](image-2.png)
